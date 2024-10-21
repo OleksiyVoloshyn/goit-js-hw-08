@@ -103,7 +103,7 @@ document.addEventListener('keydown', event => {
 function openModal(src) {
   const instance = basicLightbox.create(
     `
-    	<img src="${src}" width="1112" height="640">
+    <img src="${src}" width="1112" height="640">
     `,
     {
       className: 'modal',
